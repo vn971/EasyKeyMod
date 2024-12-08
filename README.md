@@ -106,6 +106,11 @@ define_layer {
   Fn1, Fn2, Fn3
   1,   2,   3
 }
+
+-- This example hopefully shows that Lua as a configuration language
+-- can be versatale to cover differned ideas and approaches.
+-- (Just in case, the "top to bottom" part is also just an example
+-- and is in no way enforced by the engine.)
 ```
 
 # Thoughts?
