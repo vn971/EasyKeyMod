@@ -110,20 +110,20 @@ define_layer {
 
 # Thoughts?
 Thoughts? Ideas? Just want to discuss something on this? Please reach out in Matrix / Discord!  
-If this project is to be active or even exist, it's important to have people with different perspectives. Including differnet from any early authors such as myself. The project above is already described with the mindset of having many approaches and points of view, so it's important to have this community mindset right from the beginning.
+If this project is to be active or even exist, it's important to have people with different perspectives. Including different from any early authors such as myself. The project above is already described with the mindset of having many approaches and points of view, so it's important to have this community mindset right from the beginning.
 
 # FAQ
 Q: What if I want multi-tap? Will this be possible?  
 A: Yes. You'll need to store information on the timings of previous key presses/releases and use it later. Obviously, there will be some functions provided that you can import out-of-the-box. Or you could not import them and write your own logic.
 
-Q: Will there be Macros?    
+Q: Will there be Macros?  
 A: Sure, in any way you like it.
 
 Q: The project has little mentions of layers. Will they be natively supported by the engine?  
 A: There's no need for native support, as you can just keep a variable around and have your event processing use that variable.
 
 Q: Will it be difficult to write rules in this strange Lua of yours?  
-A: We believe not. Most of the functionalities by `kanata` / `Kmonad` is really straight-forward and easy, once you have the raw events coming. The bigger questions is usually on documentation, choosing what to implement and what _not_ to implement, making defaults to target a large set of desires but niche enough to include what you want.
+A: We believe not. Most of the functionalities by `kanata` / `Kmonad` is really straight-forward and easy, once you have the raw events coming. The bigger questions is usually on documentation, choosing what to implement and what _not_ to implement, making defaults to target a large set of desires but niche enough to include what you want. By comparison, a layout author to EasyKeyMod would have to learn a single language only, and it will work now and on any future versions of the engine.
 
 Q: Will you improve this FAQ, more than iterating three times over a single feature?  
-A: Yes... But do ask other questions firts!
+A: Yes... But do ask other questions first!
